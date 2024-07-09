@@ -1,0 +1,37 @@
+<section class="d-flex justify-content-center align-items-center">
+  <div class="w-50">
+    <p class="fw-bold">Add Restaurant Details</p>
+    <form [formGroup]="addForm" (submit)="addData()">
+      <input
+        type="text"
+        placeholder="Restaurant Name"
+        class="form-control"
+        formControlName="name"
+      />
+      <textarea
+        rows="3"
+        placeholder="Description"
+        class="form-control mt-2"
+        formControlName="description"
+      ></textarea>
+      <input
+        type="text"
+        placeholder="Address"
+        class="form-control mt-2"
+        formControlName="address"
+      />
+      <input
+        type="text"
+        placeholder="Rating"
+        class="form-control mt-2"
+        formControlName="ratings"
+      />
+      <input
+        type="submit"
+        value="ADD"
+        class="form-control mt-2 bg-primary text-white fw-bold py-2"
+      />
+      <p role="button" routerLink="/" class="text-center">Cancel</p>
+    </form>
+  </div>
+</section>

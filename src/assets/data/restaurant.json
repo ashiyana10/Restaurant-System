@@ -1,0 +1,110 @@
+[
+  {
+    "id": 1,
+    "name": "The Gourmet Kitchen",
+    "address": "123 Culinary Lane, Flavor Town, FT 12345",
+    "phone": "123-456-7890",
+    "description": "A restaurant is a place where you can eat a meal and pay for it. In restaurants your food is usually served to you at your table by a waiter or waitress.",
+    "ratings": 4.5,
+    "images": [
+      "assets/Images/Rest1.jpg",
+      "assets/Images/food1.jpg",
+      "assets/Images/food2.jpg",
+      "assets/Images/food3.jpg",
+      "assets/Images/Menu1.jpg"
+    ],
+    "menu": [
+      {
+        "item": "Grilled Salmon",
+        "description": "Fresh salmon grilled to perfection.",
+        "price": 18.99
+      },
+      {
+        "item": "Caesar Salad",
+        "description": "Crispy romaine lettuce with Caesar dressing.",
+        "price": 9.99
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Pizza Paradise",
+    "address": "456 Dough St, Crust City, CC 67890",
+    "description": "A restaurant is a place where you can eat a meal and pay for it. In restaurants your food is usually served to you at your table by a waiter or waitress.",
+    "phone": "987-654-3210",
+    "ratings": 4.7,
+    "images": [
+      "assets/Images/Rest2.jpeg",
+      "assets/Images/food4.jpeg",
+      "assets/Images/food5.jpeg",
+      "assets/Images/food6.jpeg",
+      "assets/Images/Menu2.jpg"
+    ],
+    "menu": [
+      {
+        "item": "Margherita Pizza",
+        "description": "Classic Margherita pizza with fresh basil.",
+        "price": 12.99
+      },
+      {
+        "item": "Pepperoni Pizza",
+        "description": "Spicy pepperoni with mozzarella cheese.",
+        "price": 14.99
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Burger Haven",
+    "address": "789 Patty Lane, Burger Town, BT 34567",
+    "phone": "555-123-4567",
+    "description": "A restaurant is a place where you can eat a meal and pay for it. In restaurants your food is usually served to you at your table by a waiter or waitress.",
+    "ratings": 4.3,
+    "images": [
+      "assets/Images/Rest3.jpeg",
+      "assets/Images/food7.jpeg",
+      "assets/Images/food8.jpeg",
+      "assets/Images/food2.jpg",
+      "assets/Images/Menu3.jpg"
+    ],
+    "menu": [
+      {
+        "item": "Classic Cheeseburger",
+        "description": "Juicy beef patty with cheddar cheese.",
+        "price": 11.99
+      },
+      {
+        "item": "Veggie Burger",
+        "description": "Grilled veggie patty with fresh toppings.",
+        "price": 10.99
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Sushi World",
+    "address": "321 Rice Rd, Sushi City, SC 12321",
+    "description": "A restaurant is a place where you can eat a meal and pay for it. In restaurants your food is usually served to you at your table by a waiter or waitress.",
+    "phone": "444-555-6666",
+    "ratings": 4.8,
+    "images": [
+      "assets/Images/Rest3.jpeg",
+      "assets/Images/food7.jpeg",
+      "assets/Images/food8.jpeg",
+      "assets/Images/food2.jpg",
+      "assets/Images/Menu3.jpg"
+    ],
+    "menu": [
+      {
+        "item": "California Roll",
+        "description": "Crab, avocado, and cucumber.",
+        "price": 8.99
+      },
+      {
+        "item": "Spicy Tuna Roll",
+        "description": "Spicy tuna with cucumber.",
+        "price": 9.99
+      }
+    ]
+  }
+]
