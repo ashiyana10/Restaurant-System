@@ -22,6 +22,10 @@ export class RestaurantListComponent implements OnInit {
     
   }
 
+  /**
+   * delete restaurant data
+   * @param id store restaurant id
+   */
   deleteRestaurant(id:number){
     this.service.deleteRestaurantData(id)
   }

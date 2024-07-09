@@ -31,25 +31,41 @@ export class ServiceService {
     return this.restaurantData.asObservable();
   }
 
-  addRestaurantData(data: IData) {
+  /**
+   * add restaurant data
+   * @param data store restaurant data
+   */
+  addRestaurantData(data: IData):void {
     data.id = this.restaurant.length;
     this.restaurant.push(data);
     this.updateLocalStorage();
   }
 
-  updateRestaurantData(data: IData, id: number) {
+  /**
+   * update restaurant data
+   * @param data updated data
+   * @param id restaurant id
+   */
+  updateRestaurantData(data: IData, id: number):void {
     const index = this.restaurant.findIndex((data) => data.id === id);
     this.restaurant[index] = data;
     this.restaurant[index].id=id
     this.updateLocalStorage();
   }
 
-  deleteRestaurantData(id: number) {
+  /**
+   * delete restaurant data
+   * @param id store restaurant id
+   */
+  deleteRestaurantData(id: number) :void{
     const index = this.restaurant.findIndex((data) => data.id === id);
     this.restaurant.splice(index, 1);
     this.updateLocalStorage();
   }
 
+  /**
+   * update local storage
+   */
   private updateLocalStorage(): void {
     localStorage.setItem('restaurants', JSON.stringify(this.restaurant));
     this.restaurantData.next(this.restaurant)

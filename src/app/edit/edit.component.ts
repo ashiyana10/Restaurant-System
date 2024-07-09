@@ -38,6 +38,9 @@ export class EditComponent implements OnInit {
     });
   }
 
+  /**
+   * update data
+   */
   updateData(): void {
     this.service.updateRestaurantData(this.editForm.value, Number(this.id));
     this.router.navigate(['/']);
